@@ -37,6 +37,7 @@ export class ReviewComponent implements OnInit {
   }
 
   unnee(x: any){
+    if(x) {this.initialize(); console.log(x);}
     if(x) alert("Thanks for your feedback!!");
     else alert("oops! something went wrong :(");
   }
